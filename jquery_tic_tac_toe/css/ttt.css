@@ -1,0 +1,28 @@
+.grid {
+  display: flex;
+  background: grey;
+  flex-wrap: wrap;
+  width: 680px;
+  height: 680px;
+  border-top: 5px solid gray;
+  padding: 0 20px 0 30px;
+}
+
+.grid li {
+  height: 200px;
+  width: 200px;
+  border: 5px solid white;
+  list-style: none;
+  margin: 4px 6px;
+}
+
+.grid li:hover {
+  background-color: yellow;
+}
+
+.clicked {
+  background-color: black;
+  font-size: 150px;
+  color: red;
+  text-align: center;
+}
