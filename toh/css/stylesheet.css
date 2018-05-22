@@ -1,0 +1,48 @@
+body {
+  text-align: center;
+}
+
+
+.hanoi {
+  width: 50%;
+  display: flex;
+  background-color: #acf218;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.pile {
+
+  padding: 0 0 10px 0;
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  border-bottom: red 5px solid;
+  margin: 20px;
+}
+
+.pile:hover {
+  cursor: pointer;
+  border-bottom: 5px solid blue;
+}
+
+#disc0 {
+  width: 30px;
+  height: 30px;
+}
+
+#disc1 {
+  width: 45px;
+  height: 30px;
+}
+
+#disc2 {
+  width: 60px;
+  height: 30px;
+}
+.disc {
+  list-style: none;
+  display: block;
+  background: gray;
+  margin: 5px auto;
+}
